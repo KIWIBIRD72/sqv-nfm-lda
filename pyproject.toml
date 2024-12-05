@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "lesson"
+version = "0.1.0"
+description = ""
+authors = ["Evgeniy Trubnikov <parmesanshees@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+spacy = "^3.8.2"
+matplotlib = "^3.9.3"
+pandas = "^2.2.3"
+pathlib = "^1.0.1"
+
+[tool.poetry.scripts]
+main = 'lesson.__init__:main'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
